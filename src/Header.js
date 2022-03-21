@@ -1,9 +1,11 @@
-function Header() {
+export default function Header() {
   
   return ( 
-    <div>
-      <h1>Hello</h1>
-      <p>World</p>
-    </div>
+  <div className="searchbar">
+    <input type="text" placeholder="Type here..." />
+    <button>Search</button>
+  </div>
+
   ) 
 }
+

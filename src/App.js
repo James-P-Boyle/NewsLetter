@@ -1,9 +1,12 @@
 import "./App.css";
 import Header from "./Header";
-//import List
+
 
 function App() {
-  return <div className="App">gergrgr</div>;
+  return <div className="App">
+<Header />
+
+  </div>;
 }
 
 export default App;
