@@ -1,7 +1,9 @@
 export default function ListItem(props) {
   return (
-    <div>
-      <h1>hwlffjwklfe</h1>
+    <div className="listItem">
+      <h2>{props.title}</h2>
+      <p>{props.url}</p>
+      <a href="#">{props.author}</a>
     </div>
   );
 }
