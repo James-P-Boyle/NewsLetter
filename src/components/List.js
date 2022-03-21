@@ -1,9 +1,4 @@
-/* import ListItem from "./components/ListItem"; */
-
-export default function List() {
-  return (
-    <div>
-      <h1>list</h1>
-    </div>
-  );
+export default function List(props) {
+  console.log(props.dataObj);
+  return <div>hhfwlf</div>;
 }

@@ -1,10 +1,11 @@
 import "./App.css";
 import List from "./components/List";
+import Data from "./data.json";
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <List dataObj={Data} />
     </div>
   );
 }

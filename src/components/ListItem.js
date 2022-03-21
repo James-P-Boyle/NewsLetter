@@ -1,7 +1,7 @@
-export default function ListItem() {
+export default function ListItem(props) {
   return (
     <div>
-      <h1>List Item</h1>
+      <h1>hwlffjwklfe</h1>
     </div>
   );
 }
