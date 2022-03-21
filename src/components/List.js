@@ -4,7 +4,7 @@ export default function List(props) {
   /* console.log(props.dataObj.hits[1].title); */
   return (
     <div className="list">
-      {props.dataObj.hits.map((element, index) => {
+      {props.dataObj.map((element, index) => {
         return (
           <ListItem
             key={element.id}
