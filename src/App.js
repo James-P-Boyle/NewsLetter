@@ -1,5 +1,5 @@
 import "./App.css";
-//import Header
+import Header from "./Header";
 //import List
 
 function App() {
@@ -12,4 +12,3 @@ export default App;
 //List --- map over list items
 
 //ListItems --- how each item in the list will be displayed (<h1>{props.title}.....)
-zxcv
