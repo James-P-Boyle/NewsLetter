@@ -1,9 +1,9 @@
 export default function ListItem(props) {
   return (
-    <div className="listItem">
+    <div className="listItem" /* key={props.id} */>
       <h2>{props.title}</h2>
-      <p>{props.url}</p>
-      <a href="#">{props.author}</a>
+      <p>Written by {props.author}</p>
+      <a href="#">{props.url}</a>
     </div>
   );
 }
