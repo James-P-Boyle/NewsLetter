@@ -1,14 +1,14 @@
 import "./App.css";
-import Header from "./Header";
 import List from "./components/List";
 import Data from "./data.json";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [data, setData] = useState([]);
   const [query, setQuery] = useState("");
-  console.log(data);
+
   useEffect(() => {
     axios
       .get(`http://hn.algolia.com/api/v1/search?query=${query}`)
@@ -17,7 +17,7 @@ function App() {
   }, [query]);
   return (
     <div className="App">
-      <Header setQuery={setQuery} />
+      <Navbar setQuery={setQuery} />
       <List dataObj={data} />
     </div>
   );
