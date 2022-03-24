@@ -6,6 +6,47 @@
 
 .App {
 }
-div {
-  border: 2px solid red;
+/* NAVBAR */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1rem;
+  background-color: red;
+  min-width: 18rem;
+}
+.searchbar {
+  margin-left: auto;
+}
+.searchbar input {
+  padding: 0.4rem;
+}
+.searchbar button {
+  padding: 0.4rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 1rem;
+}
+.listItem {
+  box-shadow: 1px 2px 15px -1px rgba(0, 0, 0, 0.356);
+  word-wrap: break-word;
+  word-break: keep-all;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+
+.listItem h2 {
+}
+.listItem p {
+}
+.listItem a {
 }
