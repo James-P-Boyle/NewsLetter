@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function Header(props) {
   const [input, setInput] = useState("");
+
   return (
     <div className="searchbar">
       <input
@@ -11,6 +12,7 @@ export default function Header(props) {
           setInput(e.target.value);
         }}
       />
+
       <button onClick={() => props.setQuery(input)}>Search</button>
     </div>
   );
